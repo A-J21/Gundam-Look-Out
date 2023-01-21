@@ -1,0 +1,58 @@
+/* I always reset all the html elements */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	min-height: 100vh;
+	color: #555;
+	background: rgb(201, 196, 196);
+	color: rgb(6, 6, 6);
+	
+}
+p{
+	display: inline-block;
+	margin-bottom: 12px;
+	margin-top: 10px;
+}
+
+span {
+	margin-left: 10px;
+}
+ 
+.col li{
+	float: left;
+	padding: 1px;
+	height:240px;
+	border:  thin solid rgb(170, 168, 139);
+	border-width: .18rem;
+	width: 15%;
+	text-align: center;
+	background-image: linear-gradient(180deg , rgb(250, 249, 246), rgb(	255, 253, 208));
+	list-style-type: none;
+    margin-bottom:5px;
+	margin-left: 10px;
+	object-fit: contain;
+	
+}
+.col li:hover{
+	transform: scale(1.05, 1.05);
+	transition: transform .2s;
+    
+}
+.col img {
+	padding: 5px;
+	height: auto;
+    width: 75%; 
+	
+}
+.col li a {
+	width: fit-content;
+	font-size: 80%;
+}
+h2 {
+	text-align: center;
+}
