@@ -24,7 +24,7 @@ def GundamLookOut():
     #Get the date
     Myzone = pytz.timezone("US/Central") 
     DateForMe = datetime.now(Myzone)
-    Date = DateForMe.now().strftime("%Y-%m-%d %S")
+    Date = DateForMe.now().strftime("%Y-%m-%d")
     
       
     #Make the GundamList.txt in subfolder 
